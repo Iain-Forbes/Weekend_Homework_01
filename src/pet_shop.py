@@ -6,4 +6,4 @@ def get_pet_shop_name(pet_shop):
 
 # Returns Total Cash 
 def get_total_cash(pet_shop):
-    return["admin"]
+    return pet_shop["admin"]["total_cash"]
