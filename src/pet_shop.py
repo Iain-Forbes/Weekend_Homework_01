@@ -15,3 +15,7 @@ def add_or_remove_cash(pet_shop, amount):
 # Pets sold
 def get_pets_sold(pet_shop):
     return pet_shop["admin"]["pets_sold"]
+
+# Increase Pets Sold
+def increase_pets_sold(pet_shop, num_sold):
+    pet_shop["admin"]["pets_sold"] += num_sold
